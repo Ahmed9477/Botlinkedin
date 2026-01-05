@@ -43,18 +43,18 @@ linkedin-auto-poster/
 └── credentials/
     └── creds.json.example
 ```
-## ⚙️ Installation
-# 1️⃣ Cloner le dépôt
+# ⚙️ Installation
+## 1️⃣ Cloner le dépôt
 
 git clone https://github.com/your-username/linkedin-auto-poster.git
 cd linkedin-auto-poster
 
-# 2️⃣ Installer les dépendances
+## 2️⃣ Installer les dépendances
 
 pip install -r requirements.txt
 
-## 🔐 Configuration
-# 1️⃣ Variables d’environnement
+# 🔐 Configuration
+## 1️⃣ Variables d’environnement
 
 ```Créer un fichier .env à partir de .env.example :
 
@@ -67,7 +67,7 @@ OPENAI_API_KEY=sk-xxxxxxxxxxxxxxxx
 GOOGLE_SHEET_NAME=LinkedInPosts
 GOOGLE_CREDS_FILE=creds.json
 ```
-# 2️⃣ Google Sheets
+## 2️⃣ Google Sheets
 
 Créer un Google Sheet avec les colonnes suivantes :
 
@@ -77,14 +77,14 @@ Angle	        --->     Angle ou point de vue (optionnel)
 Validité	    --->    Mettre OUI pour autoriser la publication
 Post généré    --->    Lien du post publié automatiquement
 
-# 3️⃣ Google Service Account
+## 3️⃣ Google Service Account
 
 -Créer un service account Google
 -Télécharger le fichier creds.json
 -Le placer localement (jamais sur GitHub)
 -Utiliser creds.json.example comme modèle
 
-## ▶️ Lancement du bot
+# ▶️ Lancement du bot
 
 ```bash
 python bot_linkedin.py
@@ -97,14 +97,14 @@ python bot_linkedin.py
 -met à jour la Google Sheet (lien cliquable)
 -reste actif en continu (scheduler)
 
-#⏰ Planning par défaut
+# ⏰ Planning par défaut
 
 -📅 Lundi à 09:00
 -📅 Jeudi à 09:00
 
 Ces horaires sont modifiables directement dans le script.
 
-#🔒 Sécurité
+# 🔒 Sécurité
 
 Ce projet est conçu pour être 100 % safe GitHub :
 
@@ -114,7 +114,7 @@ Ce projet est conçu pour être 100 % safe GitHub :
 -✅ Fichiers .example fournis pour la configuration
 
 
-#📌 Cas d’usage
+# 📌 Cas d’usage
 
 -Personal branding
 -Créateurs de contenu
