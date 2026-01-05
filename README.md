@@ -84,7 +84,7 @@ Post généré    --->    Lien du post publié automatiquement
 -Le placer localement (jamais sur GitHub)
 -Utiliser creds.json.example comme modèle
 
-# ▶️ Lancement du bot
+## ▶️ Lancement du bot
 
 ```bash
 python bot_linkedin.py
@@ -97,14 +97,14 @@ python bot_linkedin.py
 -met à jour la Google Sheet (lien cliquable)
 -reste actif en continu (scheduler)
 
-# ⏰ Planning par défaut
+## ⏰ Planning par défaut
 
 -📅 Lundi à 09:00
 -📅 Jeudi à 09:00
 
 Ces horaires sont modifiables directement dans le script.
 
-# 🔒 Sécurité
+## 🔒 Sécurité
 
 Ce projet est conçu pour être 100 % safe GitHub :
 
@@ -114,7 +114,7 @@ Ce projet est conçu pour être 100 % safe GitHub :
 -✅ Fichiers .example fournis pour la configuration
 
 
-# 📌 Cas d’usage
+## 📌 Cas d’usage
 
 -Personal branding
 -Créateurs de contenu
