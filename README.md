@@ -91,36 +91,37 @@ python bot_linkedin.py
 ```
 #Le bot :
 
--détecte le premier post marqué OUI
--génère automatiquement le contenu + les hashtags
--publie le post sur LinkedIn
--met à jour la Google Sheet (lien cliquable)
--reste actif en continu (scheduler)
+- Détecte le premier post marqué **OUI**  
+- Génère automatiquement le contenu et les hashtags  
+- Publie le post sur **LinkedIn**  
+- Met à jour la **Google Sheet** (lien cliquable)  
+- Reste actif en continu via un **scheduler**  
+
 
 ## ⏰ Planning par défaut
 
--📅 Lundi à 09:00
--📅 Jeudi à 09:00
+- 📅 Lundi à 09:00
+- 📅 Jeudi à 09:00
 
 Ces horaires sont modifiables directement dans le script.
 
 ## 🔒 Sécurité
 
-Ce projet est conçu pour être 100 % safe GitHub :
+Ce projet est conçu pour être **100 % safe GitHub** :
 
--❌ Aucun token en dur dans le code
--❌ Aucune clé privée versionnée
--✅ Variables d’environnement uniquement
--✅ Fichiers .example fournis pour la configuration
+- ❌ Aucun token en dur dans le code  
+- ❌ Aucune clé privée versionnée  
+- ✅ Utilisation exclusive de variables d’environnement  
+- ✅ Fichiers `.example` fournis pour la configuration  
 
 
 ## 📌 Cas d’usage
 
--Personal branding
--Créateurs de contenu
--Freelances / entrepreneurs
--Community management
--Automatisation marketing
+- Personal branding  
+- Créateurs de contenu  
+- Freelances / entrepreneurs  
+- Community management  
+- Automatisation marketing  
 
 🧑‍💻 Auteur
 
