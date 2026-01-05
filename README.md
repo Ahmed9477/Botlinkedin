@@ -71,18 +71,19 @@ GOOGLE_CREDS_FILE=creds.json
 
 Créer un Google Sheet avec les colonnes suivantes :
 
-Colonne	     --->             Description
-Thème	        --->           Sujet du post
-Angle	        --->     Angle ou point de vue (optionnel)
-Validité	    --->    Mettre OUI pour autoriser la publication
-Post généré    --->    Lien du post publié automatiquement
+| Colonne        | Description |
+|---------------|-------------|
+| **Thème**     | Sujet du post |
+| **Angle**     | Angle ou point de vue (optionnel) |
+| **Validité**  | Mettre **OUI** pour autoriser la publication |
+| **Post généré** | Lien du post publié automatiquement |
 
 ## 3️⃣ Google Service Account
 
--Créer un service account Google
--Télécharger le fichier creds.json
--Le placer localement (jamais sur GitHub)
--Utiliser creds.json.example comme modèle
+- Créer un service account Google
+- Télécharger le fichier creds.json
+- Le placer localement (jamais sur GitHub)
+- Utiliser creds.json.example comme modèle
 
 ## ▶️ Lancement du bot
 
