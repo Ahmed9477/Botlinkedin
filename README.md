@@ -71,12 +71,17 @@ GOOGLE_CREDS_FILE=creds.json
 
 Créer un Google Sheet avec les colonnes suivantes :
 
-| Colonne        | Description |
-|---------------|-------------|
-| **Thème**     | Sujet du post |
-| **Angle**     | Angle ou point de vue (optionnel) |
-| **Validité**  | Mettre **OUI** pour autoriser la publication |
-| **Post généré** | Lien du post publié automatiquement |
+| **Élément** | **Détails** |
+|------------|-------------|
+| **Nom du projet** | Indiquer le nom officiel du projet. |
+| **Thème** | Préciser le thème ou le domaine principal du projet. |
+| **Équipe** | Liste des personnes avec qui vous avez collaboré sur ce projet. |
+| **Validation** | Indiquer si le projet a été validé ou approuvé (Oui / Non). |
+| **Description du projet** | Fournir une description complète et concise du projet, expliquant ce qu’il fait et ses particularités. |
+| **Objectif principal** | Décrire l’objectif principal ou la finalité du projet. |
+| **Contexte** | Expliquer le contexte dans lequel le projet a été réalisé (cours, entreprise, recherche, etc.). |
+| **Livrable** | Décrire le livrable attendus |
+
 
 ## 3️⃣ Google Service Account
 
